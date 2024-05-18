@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        jarvis = await e.reply(f"𝔸ℕ𝕀ℕ𝔼𝔼 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋")
+        jarvis = await e.reply(f"ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄🫧")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await jarvis.edit(f"𝐖𝐇𝐀𝐓 𝐈 𝐂𝐀𝐍 𝐃𝐎 𝐅𝐎𝐑 𝐘𝐎𝐔 𝐁𝐀𝐁𝐘 [𝐌𝐲 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒𝔸ℕ𝕀ℕ𝔼𝔼 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋 ]")
+        await jarvis.edit(f"ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄 🤖")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"` 𝐈 𝐀𝐌 𝐁𝐀𝐂𝐊 𝐒𝐎𝐎𝐍 𝐁𝐀𝐁𝐘 𝐃𝐎𝐍𝐓 𝐋𝐄𝐀𝐕𝐄 𝐌𝐄 🥀🫧.`")
+        await e.reply(f"`ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄 SUDO USER DONE.`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"»[𝔸ℕ𝕀ℕ𝔼𝔼 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋] 𝐒𝐔𝐃𝐎 𝐃𝐄 𝐃𝐈𝐘𝐀 𝐇𝐄 𝐁𝐀𝐁𝐘  G𝐎 𝐀𝐍𝐃 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔𝐑 s𝐄𝐍𝐄𝐌𝐘'𝐒 😂_")
+        ok = await event.reply(f"»SUDO IS DONE 👍_")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -127,7 +127,7 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» 𝐒𝐎𝐑𝐑𝐘 𝐘𝐀𝐀𝐑 𝐌𝐄𝐑𝐀 𝐎𝐖𝐍𝐄𝐑 𝐇𝐈 𝐒𝐔𝐃𝐎 𝐃𝐄𝐆𝐀 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐓𝐎 [𝔸ℕ𝕀ℕ𝔼𝔼 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋]🫧🥀...")
+        await event.reply("» TUMHARI MA KA JO HO DEKHA JAYE SUDO TO NAHI DENA ...")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sremovesudo(?: |$)(.*)" % hl))
@@ -180,9 +180,9 @@ async def removesudo(event):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%ssudos(?: |$)(.*)" % hl))
 async def show_sudo_users(event):
     if event.sender_id == OWNER_ID:
-        sudo_users_list = "𝔸ℕ𝕀ℕ𝔼𝔼 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
+        sudo_users_list = "ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄🫧 𝗖𝗨𝗥𝗥𝗘𝗡𝗧 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦 𝗟𝗜𝗦𝗧:\n"
         for user_id in SUDO_USERS:
             sudo_users_list += f"- {user_id}\n"
         await event.reply(sudo_users_list)
     else:
-        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 𝔸ℕ𝕀ℕ𝔼𝔼 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋 𝗢𝗪𝗡𝗘𝗥.")
+        await event.reply("🇴𝗡𝗟𝗬 𝗙𝗢𝗥 ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄🫧 𝗢𝗪𝗡𝗘𝗥.")
