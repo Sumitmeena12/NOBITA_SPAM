@@ -1,6 +1,6 @@
 {
-    "name": "˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝕊𝕡𝕒𝕞˼🫧",
-    "logo": "https://telegra.ph/file/6c32d6bff1244f0972640.jpg",
+    "name": "˹ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄˼🫧",
+    "logo": "https://telegra.ph/file/ffc1e0293b482febc06c3.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/NOBITAAYA/Chalcogen-x-spam.git",
+    "repository": "https://github.com/NOBITAAYA/NOBITA_SPAM.git",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
