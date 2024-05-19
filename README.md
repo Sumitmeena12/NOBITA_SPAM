@@ -4,7 +4,7 @@
 
 [<img src="https://telegra.ph/file/a3f0b11c9778742cb973a.jpg"/>]
 
-> ⭐️ Thanks to everyone for using this op 🥀 ℕ𝕆𝔹𝕀𝕋𝔸 ꭙ 𝕊ℙ𝔸𝕄🫧 🥀. That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using this op 🥀 ⟵͇̽⏤͟͟͞͞⃟🥀𓆩〭〬𝐃𝐑𝐀𝐆𝐎𝐍⟁⃤🥀🫧X Sᴘᴀᴍ🫧 🥀. That is the greatest pleasure we have !
 
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
