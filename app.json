@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/NOBITAAYA/NOBITA_SPAM.git",
+    "repository": "https://github.com/Sumitmeena12/NOBITA_SPAM",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
